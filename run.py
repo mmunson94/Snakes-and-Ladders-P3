@@ -15,7 +15,7 @@
 5. Game is cleared in order to play again.
 
 '''
-
+import random
 
 BOARD_NUM_COLUMNS = 6
 BOARD_NUM_ROWS = 6
@@ -41,6 +41,7 @@ LADDERS = {
 def main():
 
 def die_roll():
+    return randint(1, 6)
 
 def print_instructions():
 
