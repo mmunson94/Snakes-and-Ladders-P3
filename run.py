@@ -44,3 +44,8 @@ def die_roll():
 
 def print_instructions():
 
+def end_game():
+
+def print_board():
+
+def clear_board():
